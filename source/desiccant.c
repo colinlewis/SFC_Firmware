@@ -226,6 +226,9 @@ void AtThisTimeGoto(ulong theTime, mDESICCANT_STATE theState) {
   } 
 }
 
+//New line for diff
+
+
 // called once a millisecond to regulate fan speed
 // we have 8 steps of PWM (8ms => 125 Hz). We also have "off", so 9 possible settings (0-8)
 // Note that fan does not go completely off unless you turn off power.
